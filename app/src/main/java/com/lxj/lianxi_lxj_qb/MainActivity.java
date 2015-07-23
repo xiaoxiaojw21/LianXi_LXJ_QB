@@ -20,6 +20,11 @@ public class MainActivity extends ActionBarActivity {
         recycler = ((RecyclerView) findViewById(R.id.recycler));
         GridLayoutManager manager = new GridLayoutManager(this, 3);
         recycler.setLayoutManager(manager);
+
+
+
+
+
     }
 
 }
